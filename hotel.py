@@ -10,7 +10,7 @@ class HotelManagementSystem:
 
 
         #=================ist img==========
-        img1=Image.open(r"C:\Users\HP\Pictures\Camera Roll\WIN_20230128_13_22_47_Pro.jpg")
+        img1=Image.open(r"C:\Users\HP\Desktop\Hotel Management System\hotelimg1.webp")
         img1=img1.resize((1550,140),Image.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -18,7 +18,7 @@ class HotelManagementSystem:
         lblimg.place(x=0,y=0,width=1550,height=140)
 
         # ===============logo===========
-        img2=Image.open(r"C:\Users\HP\Pictures\Camera Roll\WIN_20221114_15_22_43_Pro.jpg")
+        img2=Image.open(r"C:\Users\HP\Desktop\Hotel Management System\hotelimg1.webp")
         img2=img2.resize((1550,140),Image.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -61,7 +61,7 @@ class HotelManagementSystem:
 
         #===============right side image============================
 
-        img3=Image.open(r"C:\Users\HP\Pictures\Camera Roll\WIN_20230128_13_22_47_Pro.jpg")
+        img3=Image.open(r"C:\Users\HP\Desktop\Hotel Management System\hotelimg1.webp")
         img3=img3.resize((1310,590),Image.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -71,7 +71,7 @@ class HotelManagementSystem:
 
         #===============down images==============================
 
-        img4=Image.open(r"C:\Users\HP\Pictures\Camera Roll\WIN_20230128_13_22_47_Pro.jpg")
+        img4=Image.open(r"C:\Users\HP\Desktop\Hotel Management System\hotelimg1.webp")
         img4=img4.resize((230,210),Image.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -79,7 +79,7 @@ class HotelManagementSystem:
         lblimg1=Label(main_frame,image=self.photoimg4 ,bd=4, relief=RIDGE)
         lblimg1.place(x=0,y=225, width=230, height=210)
 
-        img5=Image.open(r"C:\Users\HP\Pictures\Camera Roll\WIN_20230128_13_22_47_Pro.jpg")
+        img5=Image.open(r"C:\Users\HP\Desktop\Hotel Management System\hotelimg1.webp")
         img5=img5.resize((230,190),Image.LANCZOS)
         self.photoimg5=ImageTk.PhotoImage(img5)
 
